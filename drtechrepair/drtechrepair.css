@@ -1,0 +1,274 @@
+body {
+    background-color: #90C7E3;
+    color: #666666;
+    font-family: arial;  
+}
+
+main {
+    padding: 20px;
+}
+
+section p {
+    color: black;
+}
+
+section h3 {
+    font-size: 150%;
+}
+
+header {
+    background-color: #002171;
+    color: #FFFFFF;
+    font-size: 200%;
+    background-position: right;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px;
+}
+
+header p {
+    font-size: 50%;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+    width: 16.66%;
+    line-height: 300%;
+}
+
+li a {
+    display: block;
+    background-color: #CCCCCC;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 186px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #111;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Times New Roman;
+}
+
+h2 {
+    color: #1976D2;
+    text-shadow: 1px 1px #CCCCCC;
+    font-family: Georgia;
+}
+
+h3 {
+    color: #000033;
+    font-family: serif;
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: serif;
+    padding-bottom: 10px;
+}
+
+button {
+    font-size: 80%;
+    border-radius: 15px;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+form {
+    margin: auto;
+    display: flex;
+    width: 50%;
+    flex-flow: column nowrap;
+} 
+
+video {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    margin-bottom: .5em;
+}
+
+input[type="submit"] {
+    width: 9em;
+}
+
+table {
+    border: 2px solid #002171;
+    color: black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 1em;
+    border: 2px solid #002171;
+}
+
+td {
+    text-align: center;
+}
+
+dt {
+    color: black;
+    font-size: 150%;
+    width: 80%;
+    padding: 15px;
+}
+
+dd {
+    color: black;
+    font-size: 100%;
+}
+
+.backupmodels {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.phonecompany {
+    text-align: center;
+}
+
+.employeename {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+#backupheader {
+    color: black;
+    font-size: 300%;
+    text-align: center;
+}
+
+#backupsub {
+    color: black;
+    font-size: 125%;
+    text-align: center;
+}
+
+#diagnosticheader {
+    color: black;
+    text-align: center;
+    font-size: 300%;
+}
+
+#repairheader {
+    font-size: 200%;
+    margin-left: 50px;
+}
+
+#repairsub {
+    margin-left: 50px;
+}
+
+#repairtable {
+    margin-left: 50px;
+}
+
+#getstarted {
+    text-align: center;
+}
+
+#phonemodels {
+    float: right;
+    margin-right: 50px;
+}
+
+#apple, #samsung, #lg {
+    width: 32%
+} 
+
+#apple, #samsung {
+    float: left;
+}
+
+#lg {
+    float: right;
+    clear: none;
+}
+
+#redcrossright {
+    float: right;
+    border-radius: 50px;
+}
+
+#redcrossleft {
+    float: left;
+    border-radius: 50px;
+}
+
+#wrapper {
+    background-color: #CCCCCC;
+    box-shadow: 3px 3px #333333;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+}
